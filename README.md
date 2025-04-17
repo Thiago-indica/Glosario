@@ -1,1 +1,1 @@
-# Glosario
+Cambie de Repositorio por problemas jiji juju
