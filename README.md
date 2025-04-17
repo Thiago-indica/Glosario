@@ -1,5 +1,5 @@
-Cambie de Repositorio por problemas jiji juju
-agrege esta linea en developer.
-voy a continuar el glosario en developer.
+                                                Introduccion a las redes de datos
 
-de esta manera me acostumbro a generar nuevos cambios en una rama.
+Integrantes: Ramiro Perez, German lucero, Nadiea lucena, Thiago Muñiz, Lautaro Massa.
+
+GIT:
