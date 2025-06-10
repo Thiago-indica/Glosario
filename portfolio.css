@@ -1,0 +1,207 @@
+ body{
+  background-color: #8967f5;
+}
+
+.Titulo-Principal {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 180px; 
+  
+}
+
+.Titulo {
+  text-shadow: #774eff;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.boton-bajar {
+  margin-top: 250px;
+  padding: 10px 20px;
+  background-color: #8967f5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 1s ease;
+  height: 50px;
+  width: 130px;
+}
+
+
+
+.boton-bajar:hover {
+  background-color: #774eff;
+  color: #000000;
+  height: 60px ;
+  width: 150px;
+}
+
+
+.planes{
+  font-family:Segoe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 150px;
+    background-color: #8967f5;
+
+}
+
+
+.basico,
+.Intermedio,
+.Profesional{
+  font-family:Segoe;
+  user-select: none;
+    cursor: default;
+    font-family:monospace;
+    background-color: white;
+    border: 3px solid black;
+    padding: 20px;
+    transition: all 1.5s ease ;
+    height: 240px;
+    width: 150px;
+    text-align: center;
+    border-radius:10px ;
+}
+
+.basico {
+  width: 150px;
+  height: 70px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: white;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.basico:hover {
+  width: 150px;
+  height: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.info-oculta {
+  font-family:Segoe;
+  text-align: center;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+
+.basico:hover .info-oculta {
+    text-align: center;
+  opacity: 1;
+  max-height: 500px;
+}
+
+
+.Intermedio {
+  width: 150px;
+  height: 70px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: white;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.Intermedio:hover {
+  width: 150px;
+  height: 300px;
+  background-color: grey;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.info-oculta {
+  font-family:Segoe;
+  text-align: center;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+
+.Intermedio:hover .info-oculta {
+    text-align: center;
+  opacity: 1;
+  max-height: 500px;
+}
+
+
+.Profesional {
+  width: 150px;
+  height: 70px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: white;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.Profesional:hover {
+  border: 2px solid gold;
+  color: white;
+  width: 150px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.info-oculta {
+  font-family:Segoe;
+  text-align: center;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 1.5s ease, max-height 0.4s ease;
+}
+
+
+.Profesional:hover .info-oculta {
+  font-family:Segoe;
+  text-align: center;
+  opacity: 1;
+  max-height: 500px;
+}
+
+.boton-tarjeta{
+    width: 100px;
+    height: 30px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+
+
+
+.boton-tarjeta:hover {
+    
+    width: 120px;
+    height: 50px;
+    border: 3px solid black;
+
+
+}
