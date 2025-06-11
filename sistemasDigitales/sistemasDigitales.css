@@ -1,0 +1,71 @@
+body {
+    background-color: #54e646;
+    font-family: Arial, sans-serif;
+}
+
+.Titulo {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.información {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.letra {
+    text-align: center;
+    width: 1000px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+.letra h3 {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.parrafo-expandible {
+    width: 1000px;
+    height: 100px;
+    background-color: #54e646;
+    opacity: 0.3;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease;
+    transform-origin: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo-expandible:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    background-color: #aaf992;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.contenido-parrafo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%) scale(0.95238);
+    transform-origin: center center;
+    
+    width: 90%;
+    text-align: left;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+    transition: transform 0.4s ease-out; 
+}
