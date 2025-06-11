@@ -1,5 +1,5 @@
 body {
-    background-color: #59687c;
+    background-color: 	#2C3E50;
     font-family: Arial, sans-serif;
 }
 
@@ -32,7 +32,7 @@ body {
 .parrafo-expandible {
     width: 1000px;
     height: 100px;
-    background-color: #59687c;
+    background-color: 	#2C3E50;
     opacity: 0.3;
     border-radius: 20px;
     padding: 10px;
@@ -68,4 +68,18 @@ body {
     box-sizing: border-box;
 
     transition: transform 0.4s ease-out; 
+}
+@media (max-width: 600px) {
+    .letra, .parrafo-expandible {
+        width: 95%;
+        height: auto;
+    }
+
+    .contenido-parrafo {
+        position: relative;
+        transform: none;
+        top: auto;
+        left: auto;
+        padding: 10px;
+    }
 }

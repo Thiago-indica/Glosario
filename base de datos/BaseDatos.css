@@ -29,27 +29,24 @@ body {
     margin-bottom: 15px;
 }
 
-.expandable-paragraph {
+.parrafo-expandible {
     width: 1000px;
     height: 100px;
     background-color: slateblue;
-    color: black;
-    border-radius: 20px;
     opacity: 0.3;
+    border-radius: 20px;
     padding: 10px;
     margin: 10px auto;
-
     position: relative;
     overflow: hidden;
     transition: all 1s ease;
     transform-origin: center center;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.expandable-paragraph:hover {
+.parrafo-expandible:hover {
     opacity: 1;
     transform: scale(1.05);
     background-color: #693df9;
@@ -57,7 +54,7 @@ body {
     cursor: pointer;
 }
 
-.paragraph-content {
+.contenido-parrafo {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -71,4 +68,18 @@ body {
     box-sizing: border-box;
 
     transition: transform 0.4s ease-out; 
+}
+@media (max-width: 600px) {
+    .letra, .parrafo-expandible {
+        width: 95%;
+        height: auto;
+    }
+
+    .contenido-parrafo {
+        position: relative;
+        transform: none;
+        top: auto;
+        left: auto;
+        padding: 10px;
+    }
 }

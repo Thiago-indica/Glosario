@@ -69,3 +69,17 @@ body {
 
     transition: transform 0.4s ease-out; 
 }
+@media (max-width: 600px) {
+    .letra, .parrafo-expandible {
+        width: 95%;
+        height: auto;
+    }
+
+    .contenido-parrafo {
+        position: relative;
+        transform: none;
+        top: auto;
+        left: auto;
+        padding: 10px;
+    }
+}
