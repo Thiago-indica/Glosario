@@ -1,53 +1,61 @@
 body{
-  background-color: #8967f5;
+  background: linear-gradient(0deg, #000000 ,#00ff00);
 }
 
+
 .Titulo-Principal {
+  text-shadow: 10px 10px 20px black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   text-align: center;
-  margin-top: 180px; 
+  margin-top: 130px;
   
 }
 
 .Titulo {
-  text-shadow: #774eff;
+  color: #000000;
   padding: 10px;
   border-radius: 10px;
   display: inline-block;
 }
+h3{
+  color:#000000;
+}
 
 .boton-bajar {
-  margin-top: 250px;
+  margin-top: 200px;
   padding: 10px 20px;
-  background-color: #8967f5;
-  color: white;
+  background-color: transparent;
+  color: #000000;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 1s ease;
+  transition: all 300ms ease;
   height: 50px;
   width: 140px;
+  font-size:14px ;
 }
 
 
 
 .boton-bajar:hover {
-  background-color: #774eff;
-  color: #000000;
+  background-color: black;
+  
+  color: #00ff00;
   height: 60px ;
-  width: 150px;
+  width: 170px;
+  font-size: 17px;
 }
 
 
 .planes{
   font-family:Segoe;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 150px;
-    background-color: #8967f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 150px;
+  
 
 }
 
@@ -57,16 +65,15 @@ body{
 .Profesional{
   font-family:Segoe;
   user-select: none;
-    cursor: default;
-    font-family:monospace;
-    background-color: white;
-    border: 3px solid black;
-    padding: 20px;
-    transition: all 1.5s ease ;
-    height: 240px;
-    width: 150px;
-    text-align: center;
-    border-radius:10px ;
+  cursor: default;
+  font-family:monospace;
+  border: 3px solid black;
+  padding: 20px;
+  transition: all 1.5s ease ;
+  height: 240px;
+  width: 150px;
+  text-align: center;
+  border-radius:10px ;
 }
 
 .basico {
@@ -74,17 +81,18 @@ body{
   height: 70px;
   padding: 20px;
   border: 2px solid black;
-  background-color: white;
+  background-color: black;
   transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
   text-align: center;
+  color: #00ff00;
 }
 
 .basico:hover {
+  background: linear-gradient(180deg, #000000 , #393939 );
   width: 150px;
   height: 300px;
-  background-color: white;
   text-align: center;
   padding: 20px;
 }
@@ -96,14 +104,16 @@ body{
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.4s ease, max-height 0.4s ease;
+  transition: opacity 100ms ease, max-height 0.4s ease;
 }
 
 
 .basico:hover .info-oculta {
-    text-align: center;
+  text-align: center;
   opacity: 1;
   max-height: 500px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -161,10 +171,10 @@ body{
 
 .Profesional:hover {
   border: 2px solid gold;
-  color: white;
+  color: black;
   width: 150px;
   height: 300px;
-  background-color: black;
+  background-color: white;
   text-align: center;
   padding: 20px;
 }
@@ -188,20 +198,20 @@ body{
 }
 
 .boton-tarjeta{
-    width: 100px;
-    height: 30px;
-    transition: all 0.5s ease;
-    cursor: pointer;
-
+  background-color: transparent; 
+  width: 100px;
+  height: 30px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border: 0 solid black;
 }
 
 
 
 .boton-tarjeta:hover {
-    
-    width: 120px;
-    height: 50px;
-    border: 3px solid black;
-
-
+  background-color: transparent;  
+  width: 120px;
+  height: 50px;
+  border: 0px solid #00ff00;
+  color: #00ff00;
 }
