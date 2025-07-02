@@ -152,7 +152,7 @@ h3{
 
 
 .Registro:hover .info-oculta {
-    text-align: center;
+  text-align: center;
   opacity: 1;
   max-height: 500px;
 }
